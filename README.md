@@ -3,7 +3,7 @@
 This repository contains the emulation testbed, the campaign definitions, all raw measurements, the analysis
 scripts and the in-vehicle thermal-comfort data used in
 
-> B. C. Gül, R. R. Bakal, N. Jazdi and M. Weyrich, "Communication Protocols for Federated Learning over Dynamic
+> B. C. Gül, R. R. Bekal, N. Jazdi and M. Weyrich, "Communication Protocols for Federated Learning over Dynamic
 > Networks," *IEEE Access*.
 
 The testbed measures the communication part of synchronous federated learning (FL) rounds: a server distributes a
