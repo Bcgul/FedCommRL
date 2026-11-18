@@ -1,0 +1,18 @@
+{
+ "beam.smp|broker|beam.smp": 175.65234375,
+ "fedbench|server|amqp": 26.8984375,
+ "fedbench|client|amqp": 22.43359375,
+ "fedbench|server|grpc": 41.8828125,
+ "fedbench|client|grpc": 27.0,
+ "fedbench|server|http3": 41.44140625,
+ "fedbench|client|http3": 25.58984375,
+ "fedbench|broker|fedbench": 0,
+ "mosquitto|broker|mosquitto": 24.5703125,
+ "fedbench|server|mqtt": 28.0625,
+ "fedbench|client|mqtt": 30.0234375,
+ "qbench|broker|qbench": 0.0234375,
+ "qbench|server|quinn": 27.6328125,
+ "qbench|client|quinn": 11.21875,
+ "fedbench|server|quic": 42.33984375,
+ "fedbench|client|quic": 24.64453125
+}

@@ -1,0 +1,9054 @@
+{
+"runs": [
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_G_amqp_r0",
+"cell": "G",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_G_grpc_r0",
+"cell": "G",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_G_http3_r0",
+"cell": "G",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_G_mqtt_r0",
+"cell": "G",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_B_grpc_r0",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_B_http3_r0",
+"cell": "B",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_B_mqtt_r0",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_B_amqp_r0",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_L_grpc_r0",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_L_mqtt_r0",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_L_amqp_r0",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_L_http3_r0",
+"cell": "L",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_F_amqp_r0",
+"cell": "F",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_F_grpc_r0",
+"cell": "F",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_F_http3_r0",
+"cell": "F",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_F_mqtt_r0",
+"cell": "F",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_R_amqp_r0",
+"cell": "R",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_R_http3_r0",
+"cell": "R",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_R_mqtt_r0",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_R_grpc_r0",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_W_amqp_r0",
+"cell": "W",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_W_mqtt_r0",
+"cell": "W",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_W_http3_r0",
+"cell": "W",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2a_W_grpc_r0",
+"cell": "W",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_G_grpc_r1",
+"cell": "G",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_G_amqp_r1",
+"cell": "G",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_G_mqtt_r1",
+"cell": "G",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_G_http3_r1",
+"cell": "G",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_B_grpc_r1",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_B_mqtt_r1",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_B_http3_r1",
+"cell": "B",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_B_amqp_r1",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_L_grpc_r1",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_L_http3_r1",
+"cell": "L",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_L_mqtt_r1",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_L_amqp_r1",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_F_amqp_r1",
+"cell": "F",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_F_http3_r1",
+"cell": "F",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_F_grpc_r1",
+"cell": "F",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_F_mqtt_r1",
+"cell": "F",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_R_mqtt_r1",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_R_grpc_r1",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_R_http3_r1",
+"cell": "R",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_R_amqp_r1",
+"cell": "R",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_W_http3_r1",
+"cell": "W",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_W_grpc_r1",
+"cell": "W",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_W_amqp_r1",
+"cell": "W",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2a_W_mqtt_r1",
+"cell": "W",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_G_http3_r2",
+"cell": "G",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_G_grpc_r2",
+"cell": "G",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_G_amqp_r2",
+"cell": "G",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_G_mqtt_r2",
+"cell": "G",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_B_grpc_r2",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_B_http3_r2",
+"cell": "B",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_B_mqtt_r2",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_B_amqp_r2",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_L_mqtt_r2",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_L_amqp_r2",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_L_http3_r2",
+"cell": "L",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_L_grpc_r2",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_F_mqtt_r2",
+"cell": "F",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_F_amqp_r2",
+"cell": "F",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_F_http3_r2",
+"cell": "F",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_F_grpc_r2",
+"cell": "F",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_R_http3_r2",
+"cell": "R",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_R_amqp_r2",
+"cell": "R",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_R_mqtt_r2",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_R_grpc_r2",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_W_mqtt_r2",
+"cell": "W",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_W_amqp_r2",
+"cell": "W",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_W_grpc_r2",
+"cell": "W",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 60,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2a_W_http3_r2",
+"cell": "W",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r0",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r0",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_outage5s_http3_r0",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r0",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_handover20s_http3_r0",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r0",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r0",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r0",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_outage5s_http3_r1",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r1",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r1",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r1",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r1",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r1",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r1",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2e_handover20s_http3_r1",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_outage5s_http3_r2",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r2",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r2",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r2",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r2",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r2",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_handover20s_http3_r2",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r2",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_F_mqtt_r3",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_F_amqp_r3",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_F_grpc_r3",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_F_http3_r3",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r3",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r3",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r3",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_outage5s_http3_r3",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r3",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r3",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_handover20s_http3_r3",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 3,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r3",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_F_amqp_r4",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_F_http3_r4",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_F_mqtt_r4",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_F_grpc_r4",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_outage5s_http3_r4",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r4",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r4",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r4",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_handover20s_http3_r4",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r4",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r4",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 4,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r4",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_F_grpc_r5",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_F_amqp_r5",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_F_http3_r5",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_F_mqtt_r5",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r5",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_outage5s_http3_r5",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r5",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r5",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_handover20s_http3_r5",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r5",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r5",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 5,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r5",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_F_mqtt_r6",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_F_grpc_r6",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_F_amqp_r6",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_F_http3_r6",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_outage5s_http3_r6",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r6",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r6",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r6",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r6",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r6",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r6",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 6,
+"phase": 2,
+"id": "p2e_handover20s_http3_r6",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_F_mqtt_r7",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_F_grpc_r7",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_F_amqp_r7",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_F_http3_r7",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_outage5s_http3_r7",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r7",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r7",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r7",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r7",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r7",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_handover20s_http3_r7",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 7,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r7",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_F_mqtt_r8",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_F_http3_r8",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_F_grpc_r8",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_F_amqp_r8",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r8",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_outage5s_http3_r8",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r8",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r8",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r8",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_handover20s_http3_r8",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r8",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 8,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r8",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_F_http3_r9",
+"cell": "F",
+"arm": "http3",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_F_amqp_r9",
+"cell": "F",
+"arm": "amqp",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_F_mqtt_r9",
+"cell": "F",
+"arm": "mqtt",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_F_grpc_r9",
+"cell": "F",
+"arm": "grpc",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_outage5s_mqtt_r9",
+"cell": "outage5s",
+"arm": "mqtt",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_outage5s_http3_r9",
+"cell": "outage5s",
+"arm": "http3",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_outage5s_amqp_r9",
+"cell": "outage5s",
+"arm": "amqp",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_outage5s_grpc_r9",
+"cell": "outage5s",
+"arm": "grpc",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_handover20s_amqp_r9",
+"cell": "handover20s",
+"arm": "amqp",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_handover20s_mqtt_r9",
+"cell": "handover20s",
+"arm": "mqtt",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_handover20s_http3_r9",
+"cell": "handover20s",
+"arm": "http3",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 9,
+"phase": 2,
+"id": "p2e_handover20s_grpc_r9",
+"cell": "handover20s",
+"arm": "grpc",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_G_quinn_r0",
+"cell": "G",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_G_quic_r0",
+"cell": "G",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_B_quic_r0",
+"cell": "B",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_B_quinn_r0",
+"cell": "B",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_L_quinn_r0",
+"cell": "L",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_L_quic_r0",
+"cell": "L",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_F_quinn_r0",
+"cell": "F",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_F_quic_r0",
+"cell": "F",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_R_quinn_r0",
+"cell": "R",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_R_quic_r0",
+"cell": "R",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_outage5s_quic_r0",
+"cell": "outage5s",
+"arm": "quic",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_outage5s_quinn_r0",
+"cell": "outage5s",
+"arm": "quinn",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_handover20s_quic_r0",
+"cell": "handover20s",
+"arm": "quic",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "p2q_handover20s_quinn_r0",
+"cell": "handover20s",
+"arm": "quinn",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_G_quic_r1",
+"cell": "G",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_G_quinn_r1",
+"cell": "G",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_B_quic_r1",
+"cell": "B",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_B_quinn_r1",
+"cell": "B",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_L_quinn_r1",
+"cell": "L",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_L_quic_r1",
+"cell": "L",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_F_quinn_r1",
+"cell": "F",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_F_quic_r1",
+"cell": "F",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_R_quinn_r1",
+"cell": "R",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_R_quic_r1",
+"cell": "R",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_outage5s_quic_r1",
+"cell": "outage5s",
+"arm": "quic",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_outage5s_quinn_r1",
+"cell": "outage5s",
+"arm": "quinn",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_handover20s_quinn_r1",
+"cell": "handover20s",
+"arm": "quinn",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 1,
+"phase": 2,
+"id": "p2q_handover20s_quic_r1",
+"cell": "handover20s",
+"arm": "quic",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_G_quinn_r2",
+"cell": "G",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_G_quic_r2",
+"cell": "G",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_B_quic_r2",
+"cell": "B",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_B_quinn_r2",
+"cell": "B",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_L_quic_r2",
+"cell": "L",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_L_quinn_r2",
+"cell": "L",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_F_quic_r2",
+"cell": "F",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_F_quinn_r2",
+"cell": "F",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_R_quic_r2",
+"cell": "R",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_R_quinn_r2",
+"cell": "R",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_outage5s_quic_r2",
+"cell": "outage5s",
+"arm": "quic",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_outage5s_quinn_r2",
+"cell": "outage5s",
+"arm": "quinn",
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_handover20s_quic_r2",
+"cell": "handover20s",
+"arm": "quic",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 2,
+"phase": 2,
+"id": "p2q_handover20s_quinn_r2",
+"cell": "handover20s",
+"arm": "quinn",
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+}
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_B_amqp-bbr_r0",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_B_mqtt-bbr_r0",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_B_grpc-bbr_r0",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_B_quinn-bbr_r0",
+"cell": "B",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_L_grpc-bbr_r0",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_L_mqtt-bbr_r0",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_L_quinn-bbr_r0",
+"cell": "L",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_L_amqp-bbr_r0",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_R_quinn-bbr_r0",
+"cell": "R",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_R_amqp-bbr_r0",
+"cell": "R",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_R_mqtt-bbr_r0",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": 2,
+"id": "p2b_R_grpc-bbr_r0",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_B_quinn-bbr_r1",
+"cell": "B",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_B_amqp-bbr_r1",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_B_mqtt-bbr_r1",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_B_grpc-bbr_r1",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_L_mqtt-bbr_r1",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_L_amqp-bbr_r1",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_L_quinn-bbr_r1",
+"cell": "L",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_L_grpc-bbr_r1",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_R_mqtt-bbr_r1",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_R_quinn-bbr_r1",
+"cell": "R",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_R_amqp-bbr_r1",
+"cell": "R",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": 2,
+"id": "p2b_R_grpc-bbr_r1",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_B_mqtt-bbr_r2",
+"cell": "B",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_B_amqp-bbr_r2",
+"cell": "B",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_B_grpc-bbr_r2",
+"cell": "B",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_B_quinn-bbr_r2",
+"cell": "B",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_L_amqp-bbr_r2",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_L_mqtt-bbr_r2",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_L_grpc-bbr_r2",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_L_quinn-bbr_r2",
+"cell": "L",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_R_quinn-bbr_r2",
+"cell": "R",
+"arm": "quinn-bbr"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_R_mqtt-bbr_r2",
+"cell": "R",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_R_grpc-bbr_r2",
+"cell": "R",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 100,
+"jitter": 0,
+"loss": 0.2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "bbr",
+"rep": 2,
+"phase": 2,
+"id": "p2b_R_amqp-bbr_r2",
+"cell": "R",
+"arm": "amqp"
+}
+]
+}

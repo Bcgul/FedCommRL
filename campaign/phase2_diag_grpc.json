@@ -1,0 +1,877 @@
+{
+"runs": [
+{
+"id": "p2diag_grpc_bbr_loss5_mqtt_r0",
+"cell": "diag_bbr_loss5",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpc_r0",
+"cell": "diag_bbr_loss5",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpcwin16M_r0",
+"cell": "diag_bbr_loss5",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_bbr_loss10_mqtt_r0",
+"cell": "diag_bbr_loss10",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpc_r0",
+"cell": "diag_bbr_loss10",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpcwin16M_r0",
+"cell": "diag_bbr_loss10",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 0,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_cubic_loss2_mqtt_r0",
+"cell": "diag_cubic_loss2",
+"arm": "mqtt",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpc_r0",
+"cell": "diag_cubic_loss2",
+"arm": "grpc",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpcwin16M_r0",
+"cell": "diag_cubic_loss2",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_bbr_loss5_mqtt_r1",
+"cell": "diag_bbr_loss5",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpc_r1",
+"cell": "diag_bbr_loss5",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpcwin16M_r1",
+"cell": "diag_bbr_loss5",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_bbr_loss10_mqtt_r1",
+"cell": "diag_bbr_loss10",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpc_r1",
+"cell": "diag_bbr_loss10",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpcwin16M_r1",
+"cell": "diag_bbr_loss10",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 1,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_cubic_loss2_mqtt_r1",
+"cell": "diag_cubic_loss2",
+"arm": "mqtt",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpc_r1",
+"cell": "diag_cubic_loss2",
+"arm": "grpc",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpcwin16M_r1",
+"cell": "diag_cubic_loss2",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 1,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_bbr_loss5_mqtt_r2",
+"cell": "diag_bbr_loss5",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpc_r2",
+"cell": "diag_bbr_loss5",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss5_grpcwin16M_r2",
+"cell": "diag_bbr_loss5",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_bbr_loss10_mqtt_r2",
+"cell": "diag_bbr_loss10",
+"arm": "mqtt",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpc_r2",
+"cell": "diag_bbr_loss10",
+"arm": "grpc",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_bbr_loss10_grpcwin16M_r2",
+"cell": "diag_bbr_loss10",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "bbr",
+"rep": 2,
+"phase": "2diag",
+"grpcwin": 16777216
+},
+{
+"id": "p2diag_grpc_cubic_loss2_mqtt_r2",
+"cell": "diag_cubic_loss2",
+"arm": "mqtt",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpc_r2",
+"cell": "diag_cubic_loss2",
+"arm": "grpc",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": "2diag"
+},
+{
+"id": "p2diag_grpc_cubic_loss2_grpcwin16M_r2",
+"cell": "diag_cubic_loss2",
+"arm": "grpcwin16M",
+"n": 5,
+"size": 2500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 2,
+"phase": "2diag",
+"grpcwin": 16777216
+}
+]
+}

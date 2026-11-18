@@ -1,0 +1,15604 @@
+{
+"runs": [
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_grpc_r0",
+"cell": "base",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_http3_r0",
+"cell": "base",
+"hyp": "H1",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_amqp_r0",
+"cell": "base",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_mqtt_r0",
+"cell": "base",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_mqtt_r0",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_http3_r0",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_grpc_r0",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_amqp_r0",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_mqtt_r0",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_amqp_r0",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_grpc_r0",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_http3_r0",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_http3_r0",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_grpc_r0",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_mqtt_r0",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_amqp_r0",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_grpc_r0",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_http3_r0",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_amqp_r0",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_mqtt_r0",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_grpc_r0",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_amqp_r0",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_mqtt_r0",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_http3_r0",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_http3_r0",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_amqp_r0",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_mqtt_r0",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_grpc_r0",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_mqtt_r0",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_http3_r0",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_amqp_r0",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_grpc_r0",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_amqp_r0",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_mqtt_r0",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_grpc_r0",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_http3_r0",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_http3_r0",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_amqp_r0",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_mqtt_r0",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_grpc_r0",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_http3_r0",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_mqtt_r0",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_amqp_r0",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_grpc_r0",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_http3_r0",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_amqp_r0",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_mqtt_r0",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_grpc_r0",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_mqtt_r0",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_http3_r0",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_amqp_r0",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_grpc_r0",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_http3_r0",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_grpc_r0",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_amqp_r0",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_mqtt_r0",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_http3_r0",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_grpc_r0",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_amqp_r0",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_mqtt_r0",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_mqtt_r0",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_amqp_r0",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_grpc_r0",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_http3_r0",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_mqtt_r0",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_amqp_r0",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_grpc_r0",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_http3_r0",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_amqp_r0",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_http3_r0",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_grpc_r0",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_mqtt_r0",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_http3_r0",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_grpc_r0",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_mqtt_r0",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_amqp_r0",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_grpc_r0",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_mqtt_r0",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_amqp_r0",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_http3_r0",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_amqp_r0",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_grpc_r0",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_mqtt_r0",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_http3_r0",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_mqtt_r0",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_amqp_r0",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_grpc_r0",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_http3_r0",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_mqtt_r0",
+"cell": "n10",
+"hyp": "H10",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_amqp_r0",
+"cell": "n10",
+"hyp": "H10",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_http3_r0",
+"cell": "n10",
+"hyp": "H10",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_grpc_r0",
+"cell": "n10",
+"hyp": "H10",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_mqtt_r0",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_amqp_r0",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_http3_r0",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "http3",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_grpc_r0",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 0,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_grpc_r1",
+"cell": "base",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_mqtt_r1",
+"cell": "base",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_amqp_r1",
+"cell": "base",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_http3_r1",
+"cell": "base",
+"hyp": "H1",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_http3_r1",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_mqtt_r1",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_amqp_r1",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_grpc_r1",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_grpc_r1",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_amqp_r1",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_http3_r1",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_mqtt_r1",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_grpc_r1",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_mqtt_r1",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_amqp_r1",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_http3_r1",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_mqtt_r1",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_amqp_r1",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_http3_r1",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_grpc_r1",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_mqtt_r1",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_amqp_r1",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_grpc_r1",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_http3_r1",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_amqp_r1",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_mqtt_r1",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_grpc_r1",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_http3_r1",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_mqtt_r1",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_http3_r1",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_amqp_r1",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_grpc_r1",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_http3_r1",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_grpc_r1",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_amqp_r1",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_mqtt_r1",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_grpc_r1",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_amqp_r1",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_mqtt_r1",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_http3_r1",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_grpc_r1",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_amqp_r1",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_mqtt_r1",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_http3_r1",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_grpc_r1",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_mqtt_r1",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_amqp_r1",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_http3_r1",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_mqtt_r1",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_http3_r1",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_grpc_r1",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_amqp_r1",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_grpc_r1",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_mqtt_r1",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_http3_r1",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_amqp_r1",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_grpc_r1",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_amqp_r1",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_http3_r1",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_mqtt_r1",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_amqp_r1",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_http3_r1",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_grpc_r1",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_mqtt_r1",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_http3_r1",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_grpc_r1",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_mqtt_r1",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_amqp_r1",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_mqtt_r1",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_amqp_r1",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_http3_r1",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_grpc_r1",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_grpc_r1",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_http3_r1",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_mqtt_r1",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_amqp_r1",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_amqp_r1",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_mqtt_r1",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_grpc_r1",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_http3_r1",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_grpc_r1",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_mqtt_r1",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_http3_r1",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_amqp_r1",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_http3_r1",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_amqp_r1",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_mqtt_r1",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_grpc_r1",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_grpc_r1",
+"cell": "n10",
+"hyp": "H10",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_http3_r1",
+"cell": "n10",
+"hyp": "H10",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_mqtt_r1",
+"cell": "n10",
+"hyp": "H10",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_amqp_r1",
+"cell": "n10",
+"hyp": "H10",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_grpc_r1",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_mqtt_r1",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_amqp_r1",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_http3_r1",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "http3",
+"rep": 1,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_grpc_r2",
+"cell": "base",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_mqtt_r2",
+"cell": "base",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_http3_r2",
+"cell": "base",
+"hyp": "H1",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_amqp_r2",
+"cell": "base",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_grpc_r2",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_http3_r2",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_amqp_r2",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_mqtt_r2",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_http3_r2",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_grpc_r2",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_amqp_r2",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_mqtt_r2",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_grpc_r2",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_amqp_r2",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_http3_r2",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_mqtt_r2",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_mqtt_r2",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_amqp_r2",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_http3_r2",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_grpc_r2",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_grpc_r2",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_mqtt_r2",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_amqp_r2",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_http3_r2",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_grpc_r2",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_mqtt_r2",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_amqp_r2",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_http3_r2",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_http3_r2",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_mqtt_r2",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_grpc_r2",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_amqp_r2",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_mqtt_r2",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_amqp_r2",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_grpc_r2",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_http3_r2",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_amqp_r2",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_mqtt_r2",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_grpc_r2",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_http3_r2",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_http3_r2",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_amqp_r2",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_grpc_r2",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_mqtt_r2",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_amqp_r2",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_grpc_r2",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_http3_r2",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_mqtt_r2",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_amqp_r2",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_http3_r2",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_grpc_r2",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_mqtt_r2",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_amqp_r2",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_mqtt_r2",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_grpc_r2",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_http3_r2",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_amqp_r2",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_mqtt_r2",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_grpc_r2",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_http3_r2",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_http3_r2",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_mqtt_r2",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_grpc_r2",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_amqp_r2",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_http3_r2",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_grpc_r2",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_mqtt_r2",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_amqp_r2",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_mqtt_r2",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_grpc_r2",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_amqp_r2",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_http3_r2",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_grpc_r2",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_amqp_r2",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_mqtt_r2",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_http3_r2",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_http3_r2",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_amqp_r2",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_mqtt_r2",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_grpc_r2",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_mqtt_r2",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_grpc_r2",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_http3_r2",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_amqp_r2",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_mqtt_r2",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_grpc_r2",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_amqp_r2",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_http3_r2",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_grpc_r2",
+"cell": "n10",
+"hyp": "H10",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_amqp_r2",
+"cell": "n10",
+"hyp": "H10",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_mqtt_r2",
+"cell": "n10",
+"hyp": "H10",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_http3_r2",
+"cell": "n10",
+"hyp": "H10",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_grpc_r2",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_mqtt_r2",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_amqp_r2",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_http3_r2",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "http3",
+"rep": 2,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_amqp_r3",
+"cell": "base",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_http3_r3",
+"cell": "base",
+"hyp": "H1",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_mqtt_r3",
+"cell": "base",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_grpc_r3",
+"cell": "base",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_http3_r3",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_grpc_r3",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_mqtt_r3",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_amqp_r3",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_mqtt_r3",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_amqp_r3",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_grpc_r3",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_http3_r3",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_amqp_r3",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_mqtt_r3",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_grpc_r3",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_http3_r3",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_grpc_r3",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_http3_r3",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_amqp_r3",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_mqtt_r3",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_amqp_r3",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_mqtt_r3",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_http3_r3",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_grpc_r3",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_http3_r3",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_amqp_r3",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_grpc_r3",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_mqtt_r3",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_mqtt_r3",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_http3_r3",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_grpc_r3",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_amqp_r3",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_amqp_r3",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_mqtt_r3",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_http3_r3",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_grpc_r3",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_grpc_r3",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_http3_r3",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_amqp_r3",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_mqtt_r3",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_amqp_r3",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_grpc_r3",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_mqtt_r3",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_http3_r3",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_grpc_r3",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_http3_r3",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_amqp_r3",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_mqtt_r3",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_http3_r3",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_amqp_r3",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_grpc_r3",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_mqtt_r3",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_amqp_r3",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_mqtt_r3",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_http3_r3",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_grpc_r3",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_http3_r3",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_mqtt_r3",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_amqp_r3",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_grpc_r3",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_http3_r3",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_mqtt_r3",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_amqp_r3",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_grpc_r3",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_http3_r3",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_grpc_r3",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_amqp_r3",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_mqtt_r3",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_amqp_r3",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_grpc_r3",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_mqtt_r3",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_http3_r3",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_amqp_r3",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_grpc_r3",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_http3_r3",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_mqtt_r3",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_amqp_r3",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_http3_r3",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_mqtt_r3",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_grpc_r3",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_mqtt_r3",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_http3_r3",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_amqp_r3",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_grpc_r3",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_http3_r3",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_grpc_r3",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_amqp_r3",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_mqtt_r3",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_mqtt_r3",
+"cell": "n10",
+"hyp": "H10",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_http3_r3",
+"cell": "n10",
+"hyp": "H10",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_grpc_r3",
+"cell": "n10",
+"hyp": "H10",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_amqp_r3",
+"cell": "n10",
+"hyp": "H10",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_amqp_r3",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_mqtt_r3",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_grpc_r3",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_http3_r3",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "http3",
+"rep": 3,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_mqtt_r4",
+"cell": "base",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_amqp_r4",
+"cell": "base",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_http3_r4",
+"cell": "base",
+"hyp": "H1",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_base_grpc_r4",
+"cell": "base",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_mqtt_r4",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_grpc_r4",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_amqp_r4",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss1_http3_r4",
+"cell": "loss1",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_http3_r4",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_amqp_r4",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_grpc_r4",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss2_mqtt_r4",
+"cell": "loss2",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_http3_r4",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_grpc_r4",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_amqp_r4",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss5_mqtt_r4",
+"cell": "loss5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_amqp_r4",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_mqtt_r4",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_http3_r4",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 5,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b5_grpc_r4",
+"cell": "burst2_b5",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_mqtt_r4",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_http3_r4",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_amqp_r4",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 20,
+"qms": 100
+}
+}
+],
+"id": "p1_burst2_b20_grpc_r4",
+"cell": "burst2_b20",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_http3_r4",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_amqp_r4",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_grpc_r4",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "outage",
+"at_s": 1.0,
+"dur_s": 5.0,
+"clients": [
+1
+]
+},
+"id": "p1_outage5s_mqtt_r4",
+"cell": "outage5s",
+"hyp": "H6",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_http3_r4",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_mqtt_r4",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_grpc_r4",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"events": {
+"type": "handover",
+"every_s": 20.0,
+"gap_s": 0.2,
+"clients": [
+1
+]
+},
+"id": "p1_handover20s_amqp_r4",
+"cell": "handover20s",
+"hyp": "H5",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_amqp_r4",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_grpc_r4",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_http3_r4",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.5,
+"id": "p1_cpu50_mqtt_r4",
+"cell": "cpu50",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_amqp_r4",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_grpc_r4",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_http3_r4",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"cpu": 0.25,
+"id": "p1_cpu25_mqtt_r4",
+"cell": "cpu25",
+"hyp": "H9",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_mqtt_r4",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_amqp_r4",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_http3_r4",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 80,
+"jitter": 0,
+"loss": 2.0,
+"burst": 1,
+"qms": 100
+}
+},
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_hetero_poor_grpc_r4",
+"cell": "hetero_poor",
+"hyp": "H7",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_grpc_r4",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_http3_r4",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_amqp_r4",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss0_mqtt_r4",
+"cell": "loss0",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_mqtt_r4",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_http3_r4",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_amqp_r4",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 5,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt10_grpc_r4",
+"cell": "rtt10",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_grpc_r4",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_amqp_r4",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_mqtt_r4",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 80,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt160_http3_r4",
+"cell": "rtt160",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_http3_r4",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_grpc_r4",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_mqtt_r4",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 150,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_rtt300_amqp_r4",
+"cell": "rtt300",
+"hyp": "H2,H4",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_http3_r4",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_amqp_r4",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_grpc_r4",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 5,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw5_mqtt_r4",
+"cell": "bw5",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_amqp_r4",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_http3_r4",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_mqtt_r4",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_bw100_grpc_r4",
+"cell": "bw100",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_grpc_r4",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_amqp_r4",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_http3_r4",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 100,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_asym100_20_mqtt_r4",
+"cell": "asym100_20",
+"hyp": "H1",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_mqtt_r4",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_grpc_r4",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_amqp_r4",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 1400000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size1.4MB_http3_r4",
+"cell": "size1.4MB",
+"hyp": "H1,H8",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_amqp_r4",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_http3_r4",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_mqtt_r4",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 50000000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size50MB_grpc_r4",
+"cell": "size50MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_http3_r4",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_mqtt_r4",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_grpc_r4",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 100000000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_size100MB_amqp_r4",
+"cell": "size100MB",
+"hyp": "H8",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_mqtt_r4",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_http3_r4",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_amqp_r4",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 3,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 10,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_loss10_grpc_r4",
+"cell": "loss10",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_amqp_r4",
+"cell": "n10",
+"hyp": "H10",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_http3_r4",
+"cell": "n10",
+"hyp": "H10",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_grpc_r4",
+"cell": "n10",
+"hyp": "H10",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 10,
+"size": 12500000,
+"rounds": 4,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0.5,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"id": "p1_n10_mqtt_r4",
+"cell": "n10",
+"hyp": "H10",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_grpc_r4",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "grpc",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_mqtt_r4",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "mqtt",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_http3_r4",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "http3",
+"rep": 4,
+"phase": 1
+},
+{
+"n": 5,
+"size": 12500000,
+"rounds": 6,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 1,
+"burst": 1,
+"qms": 20
+}
+}
+],
+"id": "p1_buf20ms_amqp_r4",
+"cell": "buf20ms",
+"hyp": "H2",
+"proto": "amqp",
+"rep": 4,
+"phase": 1
+}
+]
+}

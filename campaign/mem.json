@@ -1,0 +1,392 @@
+{
+"runs": [
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_amqp",
+"cell": "G",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_grpc",
+"cell": "G",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_http3",
+"cell": "G",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_mqtt",
+"cell": "G",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "grpc",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_grpc",
+"cell": "L",
+"arm": "grpc"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "mqtt",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_mqtt",
+"cell": "L",
+"arm": "mqtt"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "amqp",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_amqp",
+"cell": "L",
+"arm": "amqp"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "http3",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_http3",
+"cell": "L",
+"arm": "http3"
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_quinn",
+"cell": "G",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 0,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_G_quic",
+"cell": "G",
+"arm": "quic",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quinn",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_quinn",
+"cell": "L",
+"arm": "quinn",
+"events": null
+},
+{
+"n": 5,
+"size": 2500000,
+"rounds": 8,
+"links": [
+{
+"up": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+},
+"down": {
+"bw": 20,
+"delay": 30,
+"jitter": 0,
+"loss": 2,
+"burst": 1,
+"qms": 100
+}
+}
+],
+"proto": "quic",
+"cc": "cubic",
+"rep": 0,
+"phase": 2,
+"id": "mem_L_quic",
+"cell": "L",
+"arm": "quic",
+"events": null
+}
+]
+}
