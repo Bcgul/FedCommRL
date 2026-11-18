@@ -1,4 +1,4 @@
-# FedComm testbed: communication protocols for federated learning over dynamic networks
+# FedCommRL testbed: communication protocols for federated learning over dynamic networks
 
 This repository contains the emulation testbed, the campaign definitions, all raw measurements, the analysis
 scripts and the in-vehicle thermal-comfort data used in
